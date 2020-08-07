@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Button */
+.yellow-btn {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #ffc400;
+    text-decoration: none;
+    border: none;
+    padding: 10px 15px;
+}
+
+/* greyText */
+.grey-text {
+    text-align: center;
+    font-size: 14px;
+    color: #868686;
+}
+
+/* CheckBoxes */
+.flex-grid {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 715px;
+    margin: 50px auto 20px auto;
+}
+
+.flex-grid .grid-item {
+    border: 1px solid #b4b3b3;
+    width: 330px;
+    height: 70px;
+    margin: 10px 10px;
+    flex-basis: auto;
+}
+
+.flex-grid .grid-item label {
+    font-size: 15px;
+    display: block;
+    padding: 25px 15px;
+}
+
+.flex-grid .grid-item .yellow-btn {
+    float: right;
+}
+
+.flex-grid .grid-item .yellow-btn {
+    cursor: pointer;
+}
+
+.grid-item:nth-of-type(5),
+.grid-item:nth-of-type(6) {
+    border: none;
+}
+
+input[type=radio] {
+    float: right;
+}
+
+.check input {
+    position: absolute;
+    opacity: 0;
+}
+
+.checkmark {
+    float: right;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.check:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.check input:checked ~ .checkmark {
+    background-color: #f9d342;
+}
+
+.form-status {
+    padding-bottom: 5px;
+}
+
+/* Media queries */
+@media (max-width: 720px) {
+    .flex-grid {
+        width: auto;
+    }
+
+    .grid-item:nth-of-type(5) {
+        display: none;
+    }
+}

@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10%;
+}
+
+header {
+    text-align: center;
+    padding: 35px 0 0 0;
+}
+
+/* Logo */
+header .logo {
+    font-size: 35px;
+}
+
+header .logo .logo-text-part1 {
+    font-weight: 200;
+}
+
+header .logo .logoTextPart2 {
+    font-weight: 500;
+}
+
+.portfolio-links {
+    margin-top: 5px;
+}
+
+header .logo .comma {
+    content: url(../../comma.png);
+    display: inline;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+
+header .about {
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+
+/* HeaderText */
+header .header-text {
+    padding-top: 5%;
+}
+
+header .header-text {
+    font-size: 30px;
+}
+
+header .header-text .bold-text {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+header .header-text .bold-text .dot {
+    color: #f9d342;
+}
+
+header .header-text .box {
+    background-color: #f9d342;
+    padding: 0 7px;
+}
+
+/*  */
+.center-btn {
+    margin: 60px auto 0 auto
+}
+
+/* Button */
+.yellow-btn {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #ffc400;
+    text-decoration: none;
+    border: none;
+    padding: 10px 15px;
+}
+
+/* Grey-text */
+.grey-text {
+    text-align: center;
+    color: #868686;
+}
